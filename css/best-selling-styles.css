@@ -1,0 +1,19 @@
+#best-selling h1 {
+    text-align: center;
+    margin: 60px auto;
+}
+#best-selling .card {
+    border: none;
+    padding: 20px;
+}
+.greater-symbol {
+    font-size: 20px;
+    margin-left: 10px;
+}
+/* Responsive Section */
+/* Responsive width 320 px - 575 px*/
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    #best-selling .card {
+        width: 100%;
+    }
+}

@@ -1,0 +1,62 @@
+/* Promotion-all */
+#promotionsAll {
+    text-align: center;
+}
+#promotionsAll h1 {
+    margin: 100px 0;
+}
+#promotionsAll .promotion-img {
+    display: block;
+}
+.promotion-banner {
+    margin: 50px 0;
+    padding: 20px;
+    border: 1px solid #909090;
+}
+.promotion-banner img {
+    display: block;
+    width: 70%;
+    margin: 20px auto;
+}
+.shop-annoucement h3 {
+    margin-bottom: 20px;
+}
+.promo-line-image img {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+}
+/* Responsive Section */
+/* Responsive width 320px - 991px  */
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+    .promotion-banner img {
+        width: 100%;
+    }
+    .promo-line-image img {
+        width: 65%;
+    }
+}
+/* Promotion-1 - 2000thb free shipping */
+#promotions h1, h2 {
+    text-align: center;
+    margin: 60px auto;
+}
+
+#promotions ol {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 2;
+}
+.line-id {
+    margin: 40px 0;
+}
+.line-id-image {
+    width: 300px;
+}
+/* Responsive Section */
+/* Responsive width 320px - 991px  */
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+    #promotions ol {
+        width: 100%;
+    }
+}

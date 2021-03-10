@@ -1,0 +1,41 @@
+#contact {
+    text-align: center;
+    margin: 100px 0;
+}
+#contact .contact-details {
+    margin: 100px 0;
+    font-size: 1.25rem;
+}
+.contact-adress, .contact-mobile {
+    line-height: 1.25;
+}
+.contact-images img {
+    display: block;
+    width: 100%;
+    margin: 0 0 20px;
+}
+.contact-images .contact-qr-code-image {
+    width: 50%;
+}
+/* google map */
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.gmap_canvas {
+    margin: 0 auto;
+}
+.mapouter {
+    position: relative;
+    height: 500px;
+    width: 900px;
+    margin: 30px auto;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+    width: 100%;
+}
